@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        form{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            background-color: rgb(53, 53, 73);
+            color: white;
+            margin: 15px;
+            padding: auto;        
+        }
+        label{
+            margin: 5px 0px 5px 0px;
+        }
+        input{
+            margin: 5px 0px 5px 0px;
+        }
+    </style>
+</head>
+<body>
+    <form action="Ficha Clinica">
+        <fieldset>
+            <legend>DADOS PESSOAIS</legend>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="" size="40"> <br><br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="" size="30"> <br><br>
+            <label for="endereço">Endereço:</label>
+            <input type="text" name="endereço" id="" size="40"> <br><br>
+            <label for="bairro">Bairro:</label>
+            <input type="text" name="bairro" id="">
+            <label for="cidade">Cidade:</label>
+            <input type="text" name="cidade" id="">
+            <label for="cep">CEP:</label>
+            <input type="text" name="cep" id=""> <br><br>
+            <label for="tel.res">Tel. Res.:</label>
+            <input type="text" name="tel.res" id="">
+            <label for="tel.cel">Celular:</label>
+            <input type="text" name="tel.cel" id=""><br><br>
+            <label for="idade">Idade:</label>
+            <input type="number" name="idade" id="">
+            <label for="nascimento">Data de Nascimento:</label>
+            <input type="date" name="nascimento" id=""><br><br>
+            <label for="rg">RG:</label>
+            <input type="text" name="rg" id="">
+            <label for="cpf">CPF:</label>
+            <input type="text" name="cpf" id=""><br><br>
+            <label for="profissão">Profissão:</label>
+            <input type="text" name="profissao" id="" size="40">
+
+            <p>Como conheceu a clínica MMLigia?
+                <select name="midias" id="">
+                    <option value="Google">Google</option>
+                    <option value="Facebook">Facebook</option>
+                    <option value="Linkedln">Linkedln</option>
+                    <option value="Instagram">Instagram</option>
+                    <option value="amigo">Indicado por um amigo</option>
+                </select>
+            </p>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>ANAMNESE</legend>
+            <label for="alergico">Alérgico:</label>
+            <input type="radio" name="alergico" id="">Sim
+            <input type="radio" name="alergico" id="">Não
+            <label for="alergico">- Se sim especificar:</label>
+            <input type="text" name="alergico" id=""><br>
+            
+            <label for="hemorragia">Hemorragia:</label>    
+            <input type="radio" name="hemorragia" id="">Sim
+            <input type="radio" name="hemorragia" id="">Não <br>
+            <label for="diabetes">Diabetes:</label>    
+            <input type="radio" name="diabetes" id="">Sim
+            <input type="radio" name="diabetes" id="">Não <br>
+            <label for="cardiopatia">Cardiopatia:</label>    
+            <input type="radio" name="cardiopatia" id="">Sim
+            <input type="radio" name="cardiopatia" id="">Não <br>
+            <label for="gravida">Está Grávida?:</label>    
+            <input type="radio" name="gravida" id="">Sim
+            <input type="radio" name="gravida" id="">Não <br>
+            <label for="dst">Tem DST, AIDS ou SIFILIS ?:</label>    
+            <input type="radio" name="dst" id="">Sim
+            <input type="radio" name="dst" id="">Não <br>
+            <label for="drogas">Usa drogas?:</label>    
+            <input type="radio" name="drogas" id="">Sim
+            <input type="radio" name="drogas" id="">Não <br>
+            <label for="fuma">Fuma:</label>    
+            <input type="radio" name="fuma" id="">Sim
+            <input type="radio" name="fuma" id="">Não <br>
+            <label for="bebe">Bebe:</label>    
+            <input type="radio" name="bebe" id="">Sim
+            <input type="radio" name="bebe" id="">Não <br>
+            <label for="gastro">Gastrointestinal:</label>    
+            <input type="radio" name="gastro" id="">Sim
+            <input type="radio" name="gastro" id="">Não <br>
+            <label for="cicatrizacao">Cicatrização:</label>    
+            <input type="radio" name="cicatrizacao" id="">Sim
+            <input type="radio" name="cicatrizacao" id="">Não <br>
+            <label for="hepatite">Hepatite:</label>    
+            <input type="radio" name="hepatite" id="">Sim
+            <input type="radio" name="hepatite" id="">Não
+            <label for="alergico">- Se sim especificar:</label>
+            <input type="text" name="hepatite" id=""> <br>
+            <label for="convulsivo">Convulsivo:</label>    
+            <input type="radio" name="convulsivo" id="">Sim
+            <input type="radio" name="convulsivo" id="">Não <br> <br>
+
+            <label for="medicamentos">Medicamentos que toma:</label>
+            <input type="text" name="medicamentos" id="" size="50"><br> <br>
+
+            <label for="outros">Outros problemas não mencionados?:</label>
+            <input type="radio" name="outros" id="">Sim
+            <input type="radio" name="outros" id="">Não
+            <input type="text" name="outros" id="" size="50">
+        </fieldset> <br>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

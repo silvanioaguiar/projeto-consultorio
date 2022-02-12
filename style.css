@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+h1{
+    animation: gradient 7s ease infinite;
+    text-align: center;
+    font-size: 150px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 400px;
+    background:linear-gradient(to bottom,rgb(36, 36, 87), rgb(121, 121, 77)) no-repeat;
+    color: rgba(194, 162, 18, 0.664);
+    padding: 200px 0px 0px 0px;
+    background-size: 50%, 100%;
+}
+a {
+    color: white;
+}
+
+@keyframes gradient {
+    0%{
+       background-position: 0 50%; 
+
+    }
+
+    50%{
+        background-position: 100%  50%;
+
+    }
+
+    100%{
+        background-position: 0 50%;
+
+    }
+}
+
+footer{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(49, 49, 71);
+    color: white;
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 600px;
+}
